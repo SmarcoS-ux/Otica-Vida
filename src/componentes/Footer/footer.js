@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './style-footer.css';
 
 export default function Footer(){
     return(
@@ -15,15 +15,15 @@ export default function Footer(){
                     <div className="paragr_icons">
                         <div className="p_icons">
                             <img src="/assets/local.png" alt="icon_location" width='20' height='20'/>
-                            <p id="localizacao">Nova Iguaçu, RJ</p>
+                            <p id="localizacao">Governador Valadares, GV</p>
                         </div>
                         <div className="p_icons">
                             <img src="/assets/telefone.png" alt="icon_tel" width='20' height='20'/>
-                            <p id="telefone">(21) 9999-9999</p>
+                            <p id="telefone">(33) 3082-3316</p>
                         </div>
                         <div className="p_icons">
                             <img src="/assets/email.png" alt="icon_email" width='20' height='20'/>
-                            <p id="email">contato@oticavida.com</p>
+                            <p id="email">contato@oticaoriginal.com</p>
                         </div>
                     </div>
                 </div> 
@@ -32,21 +32,21 @@ export default function Footer(){
                     <div className="paragrafos">
                         <div className="p_icons">
                             <img src="/assets/fb.png" alt="icon_facebook" width='20' height='20'/>
-                            <p id="facebook">/OticaVida</p>
+                            <p id="facebook">/otica.original</p>
                         </div>
                         <div className="p_icons">
                             <img src="/assets/ig.png" alt="icon_instagram" width='20' height='20'/>
-                            <p id="instagram">@oticavidarj</p>
+                            <p id="instagram">@oticaoriginal</p>
                         </div>
                         <div className="p_icons">
                             <img src="/assets/tt.png" alt="icon_twitter" width='20' height='20'/>
-                            <p id="twitter">@oticavidarj</p>
+                            <p id="twitter">@otica.original</p>
                         </div>
                     </div>
                 </div>
             </div>  
             <div className="bottom_footer">
-                <p>© 2022 Óticas Vida - Todos os direitos reservados</p>
+                <p>© 2025 Ótica Original - Todos os direitos reservados</p>
             </div>      
         </div> 
     );

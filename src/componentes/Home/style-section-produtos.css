@@ -30,7 +30,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px 100px;
+        padding: 10px 100px;
         margin-bottom: 50px;
         border-bottom: 1px solid rgb(206, 206, 206);
         border-right: 1px solid rgb(206, 206, 206);
@@ -43,69 +43,85 @@
         padding: 10px 40px;
         border-style: groove;
         box-shadow: 2px 2px 2px;
-        margin-top: -40px;
+        margin-top: -30px;
         border-radius: 10px;
         text-transform: uppercase;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 15px;
     }
+    .apresentation_vitrine p {
+        text-decoration: underline;
+        text-decoration-color: orange;
+        text-decoration-thickness: 3px;
+        
+    }
     .apresentation_vitrine img{
         width: 300px;
-        height: 100px;
+        height: 120px;
     }
-
-    /**/
-    .icon_preco{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .icon_preco img{
-        height: 30px;
-        width: 38px;
-        margin: 0 5px;
-    }
-    .icon_preco p{
-        font-weight: bold;
-    }
-    .link_comprar{
+    .apresentation_vitrine .container-more{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
     }
-    .link_comprar .add_cart{
-        background-color: rgb(241, 187, 7);
-        text-decoration: none;
-        padding: 5px 15px;
-        border-radius: 15px;
-        color: rgb(255, 255, 255);
-        margin: 0 5px;
+    .apresentation_vitrine .container-more img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
     }
-    .link_comprar .add_cart:hover{
-        background-color: rgb(158, 121, 1);
+    .apresentation_vitrine .container-more a {
+        color: rgb(8, 177, 64);
     }
-    .link_comprar .comprar{
-        background-color: rgb(16, 138, 0);
-        text-decoration: none;
-        padding: 5px 15px;
-        border-radius: 15px;
-        color: rgb(250, 250, 250);
-        margin: 0 5px;
-    } 
-    .link_comprar .comprar:hover{
-        background-color: rgb(12, 90, 1);
-    }
-
-    /**/
+    
     .bottom-section{
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: rgb(235, 235, 235);
     }
     .bottom-section ul{
         text-align: center;
         list-style-position: inside;
+        text-decoration: underline;
+        text-decoration-color: rgb(14, 177, 114);
+        text-decoration-thickness: 2px;
+        padding: 0;
+    }
+    .bottom-section b {
+        margin-top: 10px;
+    }
+
+    .popup-atendimento {
+        position: fixed;
+        width: 160px;
+        bottom: 20px;
+        right: -150px;
+        padding: 5px 40px 5px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: rgb(187, 243, 187);
+        border-radius: 10px 0 0 10px;
+        text-align: center;
+        box-shadow: 2px 2px 5px black;
+        transition: 0.8s;
+    }
+    .popup-atendimento:hover{
+        right: 0px;
+        cursor: pointer;
+    }
+
+    .popup-atendimento img {
+        width: 45px;
+        margin-right: 10px;
+    }
+    .popup-atendimento p {
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(2, 58, 16);
     }
 }
 

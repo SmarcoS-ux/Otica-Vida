@@ -1,0 +1,300 @@
+@media screen and (min-width: 550px){
+    .Header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .black-line{
+        background-color: #808080;
+        height: 30px;
+        box-shadow: 2px 2px 5px rgb(99, 99, 99);
+        z-index: 1;
+    }
+    
+    .header{
+        background-color: rgb(255, 255, 255); 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 110px;
+    }
+    
+    .Logo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .Logo img{
+        width: 150px;
+        margin-left: 50px;
+        filter: drop-shadow(2px 2px 5px black);
+    }
+    .Logo img:hover {
+        cursor: pointer;
+    }
+    
+    .Navegation{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+    }
+    .Navegation a{
+        text-decoration: none;
+        padding: 18px 15px;
+        color: black;
+    }
+    .Navegation a:hover{
+        background-color: rgb(175, 174, 174);
+        color: white;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .Navegation a:last-child{
+        margin-right: 50px;
+    }
+    .Navegation #btn-profile {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Navegation #btn-profile img {
+        width: 30px;
+    }
+
+}
+
+@media screen and (max-width: 549px){
+    .Header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .black-line{
+        background-color: black;
+    }
+    
+    .header{
+        background-color: rgb(255, 255, 255); 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 110px;
+    }
+    
+    .Logo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .Logo img{
+        height: 30px;
+        width: 110px;
+        margin-left: 15px;
+    }
+    
+    .Navegation{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+    }
+    .Navegation a{
+        text-decoration: none;
+        padding: 0 10px;
+        color: black;
+    }
+    .Navegation a:last-child{
+        margin-right: 10px;
+    }
+
+    .Navegation #btn-profile {
+        width: 30px;
+    }
+    .Navegation #btn-profile img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-height: 831px){
+    .Header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .black-line{
+        background-color: black;
+    }
+    
+    .header{
+        background-color: rgb(255, 255, 255); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*width: 100%;*/
+        height: 150px;
+    }
+    
+    .Logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    .Logo img{
+        height: 30px;
+        width: 110px;
+        margin: 0;  
+    }
+    
+    .Navegation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 80%;
+        border-top: 1px solid rgb(119, 119, 119);
+        margin: 0 auto;
+    }
+    .Navegation a{
+        text-decoration: none;
+        padding: 15px 15px;
+        color: black;
+        font-size: 15px;
+    }
+
+    .Navegation #btn-profile {
+        width: 30px;
+    }
+    .Navegation #btn-profile img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 830px){
+    .Header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .black-line{
+        background-color: black;
+    }
+    
+    .header{
+        background-color: rgb(255, 255, 255); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*width: 100%;*/
+        height: 150px;
+    }
+    
+    .Logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    
+    }
+    .Logo img{
+        height: 30px;
+        width: 110px;
+        margin: 0;
+    }
+    
+    .Navegation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 80%;
+        border-top: 1px solid rgb(119, 119, 119);
+        margin: 0 auto;
+    }
+    .Navegation a{
+        text-decoration: none;
+        padding: 0 15px;
+        color: black;
+        font-size: 12px;
+    }
+    .Navegation a:last-child{
+        margin-right: 10px;
+    }
+
+    .Navegation #btn-profile {
+        width: 25px;
+    }
+    .Navegation #btn-profile img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 380px) and (max-height: 480px){
+    .Header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .black-line{
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .header{
+        background-color: rgb(247, 247, 247); 
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        align-items: center;
+    }
+    
+    .Logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .Logo img{
+        height: 30px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    
+    .Navegation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        border-top: 1px solid rgb(119, 119, 119);
+        margin: 0 auto;
+    }
+    .Navegation a{
+        text-decoration: none;
+        padding: 0 10px;
+        color: black;
+        font-size: 14px;
+    }
+    .Navegation a:last-child{
+        margin-right: 10px;
+    }
+
+    .Navegation #btn-profile {
+        width: 25px;
+    }
+    .Navegation #btn-profile img {
+        width: 25px;
+    }
+}

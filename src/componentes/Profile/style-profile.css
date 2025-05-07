@@ -1,0 +1,306 @@
+.container-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(239, 243, 250, 0.8784313725);
+}
+.container-profile .line {
+  width: 100%;
+  background-color: #808080;
+  height: 30px;
+  box-shadow: 2px 2px 5px rgb(99, 99, 99);
+}
+.container-profile #form-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-profile #form-profile .container-logout {
+  width: 100%;
+  max-width: 768px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+.container-profile #form-profile .container-logout #btn-logout {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
+.container-profile #form-profile .container-logout #btn-logout img {
+  width: 30px;
+  height: 30px;
+}
+.container-profile #form-profile .container-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /*background-color: #808080;
+  height: 30px;*/
+  margin-top: 50px;
+}
+.container-profile #form-profile .container-img #link-home {
+  position: absolute;
+  top: 45px;
+  left: 50px;
+}
+.container-profile #form-profile .container-img #link-home img {
+  width: 150px;
+  filter: drop-shadow(2px 2px 5px black);
+}
+.container-profile #form-profile .container-img #btn-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  outline: none;
+  width: 100px;
+  height: 100px;
+  border: none;
+  margin-top: 20px;
+}
+.container-profile #form-profile .container-img #btn-user img {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(2px 2px 10px #000000);
+}
+.container-profile #form-profile .container-dados {
+  padding: 20px;
+  margin-top: 40px;
+  width: 768px;
+  max-width: 768px;
+  border-radius: 10px;
+  background-color: rgb(221, 221, 221);
+  box-shadow: 2px 2px 5px rgb(53, 53, 53);
+}
+.container-profile #form-profile .container-dados .container-message-success {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #80e7a7;
+  color: rgb(3, 70, 31);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.container-profile #form-profile .container-dados .container-message-success .ico-message {
+  width: 25px;
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-message-success p {
+  margin: 0;
+}
+.container-profile #form-profile .container-dados .container-message-error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f39a9a;
+  color: rgb(117, 12, 12);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.container-profile #form-profile .container-dados .container-message-error .ico-message {
+  width: 25px;
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-message-error p {
+  margin: 0;
+}
+.container-profile #form-profile .container-dados .container-message-warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f3db9a;
+  color: rgb(117, 107, 12);
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.container-profile #form-profile .container-dados .container-message-warning .ico-message {
+  width: 25px;
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-message-warning p {
+  margin: 0;
+}
+.container-profile #form-profile .container-dados legend {
+  color: rgb(129, 129, 129);
+}
+.container-profile #form-profile .container-dados input {
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(139, 139, 139);
+}
+.container-profile #form-profile .container-dados input:focus {
+  box-shadow: 1px 1px 2px;
+}
+.container-profile #form-profile .container-dados .container-nome {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container-profile #form-profile .container-dados .container-nascimento-cidade {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container-profile #form-profile .container-dados .container-nascimento-cidade .container-nascimento {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.container-profile #form-profile .container-dados .container-nascimento-cidade .container-nascimento input {
+  height: 32px;
+}
+.container-profile #form-profile .container-dados .container-nascimento-cidade .container-cidade {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container-profile #form-profile .container-dados .container-email-telefone {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container-profile #form-profile .container-dados .container-email-telefone .container-telefone {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.container-profile #form-profile .container-dados .container-email-telefone .container-email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-rua-numero {
+  display: flex;
+  flex-direction: row;
+}
+.container-profile #form-profile .container-dados .container-rua-numero .container-logradouro {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.container-profile #form-profile .container-dados .container-rua-numero .container-logradouro #opt-logradouro {
+  padding-left: 10px;
+  height: 34px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(139, 139, 139);
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-rua-numero .container-logradouro #opt-logradouro:focus {
+  box-shadow: 1px 1px 2px;
+}
+.container-profile #form-profile .container-dados .container-rua-numero .container-logradouro #nome-logradouro {
+  width: calc(100% - 100px);
+  margin-right: 5px;
+}
+.container-profile #form-profile .container-dados .container-rua-numero .container-logradouro #numero-logradouro {
+  width: 100px;
+}
+.container-profile #form-profile .container-dados .container-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  padding-right: 3px;
+}
+.container-profile #form-profile .container-dados .container-buttons #btn-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container-profile #form-profile .container-dados .container-buttons #btn-submit #ico-loading {
+  width: 20px;
+}
+.container-profile #form-profile .container-dados .container-buttons .btn-edit {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(161, 161, 161);
+  outline: none;
+  font-weight: 600;
+  background-color: rgb(212, 212, 212);
+}
+.container-profile #form-profile .container-dados .container-buttons .btn-update {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid green;
+  outline: none;
+  font-weight: 600;
+  background-color: rgb(64, 230, 64);
+}
+.container-profile #form-profile .container-dados .container-buttons #btn-limpar {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(182, 182, 182);
+  outline: none;
+  font-weight: 600;
+}
+.container-profile #form-profile .container-dados .container-buttons #btn-voltar {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(170, 136, 25);
+  background-color: rgb(243, 189, 107);
+  outline: none;
+  font-weight: 600;
+}
+.container-profile #form-profile .container-dados .container-buttons .btn-edit:hover, .container-profile #form-profile .container-dados .container-buttons .btn-update:hover, .container-profile #form-profile .container-dados .container-buttons #btn-voltar:hover, .container-profile #form-profile .container-dados .container-buttons #btn-limpar:hover {
+  cursor: pointer;
+}
+.container-profile #form-agendamentos {
+  width: 100%;
+  max-width: 808px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.container-profile #form-agendamentos .container-agendamentos {
+  /*& table, td, th{
+      border-collapse: collapse;
+      border: 1px solid rgb(153, 153, 153)
+  }      */
+}
+.container-profile #form-agendamentos .container-agendamentos table {
+  width: 100%;
+  text-align: center;
+}
+.container-profile #form-agendamentos .container-agendamentos table caption {
+  height: 35px;
+  line-height: 2;
+}
+.container-profile #form-agendamentos .container-agendamentos table thead {
+  background-color: #979797;
+  height: 35px;
+  color: #fff;
+}
+.container-profile #form-agendamentos .container-agendamentos table tbody tr:nth-of-type(even) {
+  background-color: #dfdfdf;
+}
+
+/*# sourceMappingURL=style-profile.css.map */

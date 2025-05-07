@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px){
     .sobre{
-        margin-top: 150px;
+        margin-top: 50px;
     }
     
     .intro_section{
@@ -25,10 +25,19 @@
         display: none;
     }
     
-    .img_farmacia{
+    #img_farmacia1 {
+        background-image: url("../../../public/assets/Banner1.png");
+        background-position: right;
         width: 500px;
         height: 300px
     }
+    #img_farmacia2 {
+        background-image: url("../../../public/assets/Banner2.png");
+        background-position: bottom;
+        width: 500px;
+        height: 300px
+    }
+
     .img_farmacia img{
         width: 500px;
         height: 300px;
@@ -55,7 +64,7 @@
 
 @media screen and (min-width: 750px) and (max-width: 1023px){
     .sobre{
-        margin-top: 150px;
+        margin-top: 50px;
     }
     
     .intro_section{
@@ -108,7 +117,7 @@
 
 @media screen and (max-width: 749px){
     .sobre{
-        margin-top: 150px;
+        margin-top: 50px;
     }
     
     .intro_section{
@@ -161,7 +170,7 @@
 
 @media screen and (max-width: 480px) and (min-height: 831px){
     .sobre{
-        margin-top: 150px;
+        margin-top: 50px;
     }
     
     .intro_section{

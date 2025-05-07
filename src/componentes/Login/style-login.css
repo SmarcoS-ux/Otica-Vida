@@ -1,0 +1,140 @@
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-login .container-message {
+  background-color: rgb(248, 186, 115);
+  color: rgb(136, 82, 0);
+  padding: 0px 30px;
+  border-radius: 5px;
+}
+.container-login .container-form {
+  background-color: rgba(0, 0, 0, 0.562);
+  margin-top: 30px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  width: 300px;
+}
+.container-login .container-form h1 {
+  color: #fff;
+}
+.container-login .container-form .container-loading {
+  text-align: end;
+}
+.container-login .container-form .container-loading #ico-loading {
+  width: 25px;
+}
+.container-login .container-form .messages-error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(252, 142, 142);
+  color: rgb(122, 3, 3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.container-login .container-form .messages-error #img {
+  width: 25px;
+  margin-right: 5px;
+}
+.container-login .container-form .messages-error p {
+  margin: 0;
+}
+.container-login .container-form .messages-success {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(142, 252, 157);
+  color: rgb(3, 122, 29);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.container-login .container-form .messages-success #img {
+  width: 25px;
+  margin-right: 5px;
+}
+.container-login .container-form .messages-success p {
+  margin: 0;
+}
+.container-login .container-form .container-user, .container-login .container-form .container-password {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.container-login .container-form .container-user label, .container-login .container-form .container-password label {
+  color: #fff;
+}
+.container-login .container-form .container-user input, .container-login .container-form .container-password input {
+  height: 30px;
+  outline: none;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  padding-left: 5px;
+}
+.container-login .container-form .container-user input:focus, .container-login .container-form .container-password input:focus {
+  box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+.container-login .container-form .line1 {
+  width: calc(100% - 100px);
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 20px 50px 5px 50px;
+}
+.container-login .container-form .line2 {
+  width: calc(100% - 200px);
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 0px 100px 10px 100px;
+}
+.container-login .container-form #btn-enviar {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(3, 223, 113);
+  background-color: rgb(66, 253, 150);
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(0, 80, 13);
+  margin-bottom: 20px;
+}
+.container-login .container-form #btn-enviar:hover {
+  cursor: pointer;
+  background-color: rgb(47, 189, 101);
+  color: #fff;
+}
+.container-login .container-form #btn-voltar {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(207, 159, 0);
+  background-color: rgb(250, 220, 89);
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: rgb(99, 100, 1);
+}
+.container-login .container-form #btn-voltar:hover {
+  cursor: pointer;
+}
+.container-login .container-link-register {
+  width: 100%;
+  text-align: center;
+}
+.container-login .container-link-register span {
+  color: #fff;
+}
+.container-login .container-link-register #link-register {
+  color: rgb(79, 213, 253);
+  text-shadow: 1px 1px 10px rgb(79, 213, 253);
+}
+
+/*# sourceMappingURL=style-login.css.map */

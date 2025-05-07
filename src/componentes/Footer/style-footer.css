@@ -1,11 +1,12 @@
 @media screen and (min-width: 1024px){
     .footer{
-        background-color: rgb(11, 6, 32);
+        background-color: #808080;
         width: 100%;
         margin-top: 50px;
         margin-bottom: 0;
         padding-top: 5px;
         color: white;
+        
 
     }
     
